@@ -22,12 +22,15 @@ The goal is not to compare datasets directly, but to evaluate how optimization m
 ---
 
 ## Project Structure
+\usepackage{listings}
+
+\begin{lstlisting}
 computational-ml-project/
 │
 ├── notebooks/
-│ ├── 01_mnist_analysis.ipynb
-│ ├── 02_movielens_analysis.ipynb
-│ └── 03_comparison_analysis.ipynb
+│   ├── mnist_analysis.ipynb
+│   ├── movielens_analysis.ipynb
+│   └── comparison_analysis.ipynb
 │
 ├── src/
 ├── data/
@@ -36,6 +39,7 @@ computational-ml-project/
 ├── report/
 ├── requirements.txt
 └── README.md
+\end{lstlisting}
 
 
 ---
@@ -94,9 +98,9 @@ It compares computational methods across:
 
 
 2. Run notebooks in order:
-- notebooks/01_mnist_analysis.ipynb
-- notebooks/02_movielens_analysis.ipynb
-- notebooks/03_comparison_analysis.ipynb
+- notebooks/mnist_analysis.ipynb
+- notebooks/movielens_analysis.ipynb
+- notebooks/comparison_analysis.ipynb
 
 ---
 

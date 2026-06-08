@@ -1,0 +1,5 @@
+Model,Final Train Loss,Final Test Loss,Final Test Accuracy,Runtime (seconds)
+Single SGD,0.0222,0.0335,0.989,324.8484
+Single Adam,0.0069,0.0358,0.9901,308.8866
+Multilevel SGD,0.0245,0.0321,0.9894,370.9826
+Multilevel Adam,0.0108,0.0353,0.9893,369.6899

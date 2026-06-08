@@ -1,0 +1,6 @@
+Model,Final Train RMSE,Final Test RMSE,Runtime (seconds)
+Global Mean Baseline,,1.0355,
+SGD,0.5793,0.8501,120.9348
+Adam,0.4792,0.8508,409.1822
+Multilevel SGD,0.7161,0.8593,96.6596
+Multilevel Adam,0.6366,0.8585,449.6955
